@@ -76,7 +76,7 @@ m4 <- lmer(mAch ~ (minrty_cm + minrty) * (ses_cm + ses_cmc) +
 AIC(m1, m2, m3, m4)  # marginal AIC
 ```
 
-Fill in the blank: Model ____ appears to have the best out-of-sample prediction accuracy?
+Fill in the blank: Model 4____ appears to have the best out-of-sample prediction accuracy?
 
 ## Averaging M1, M2, M3, and M4
 
@@ -124,7 +124,7 @@ mse <- lapply(list(m1 = m1, m2 = m2, m3 = m3, m4 = m4, `m_avg1` = m_avg1),
 unlist(mse)
 ```
 
-Fill in the blank: From the output above, model ____ shows the highest out-of-sample prediction accuracy.
+Fill in the blank: From the output above, model __4__ shows the highest out-of-sample prediction accuracy.
 
 ## Model Averaging of More Models
 
